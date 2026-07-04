@@ -1,0 +1,1 @@
+use client"; export default function ErrorPage() { return <div className="p-20 text-center text-zinc-400"><h1 className="text-4xl font-bold">Error</h1><p className="mt-2">Something went wrong</p></div>; }
