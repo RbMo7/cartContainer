@@ -1,0 +1,1 @@
+import { auth } from "@/lib/auth"; import { redirect } from "next/navigation"; export const dynamic = "force-dynamic"; export default async function CheckoutPage() { const s = await auth(); if (!s?.user) redirect("/auth/signin"); redirect("/cart"); }
